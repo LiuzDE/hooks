@@ -1,12 +1,11 @@
 {
   "name": "@varheight/hooks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Common React hooks used by the varheight company in their projects",
   "main": "dist/index.js",
-  "types": "types",
+  "types": "dist/index.d.ts",
   "files": [
-    "/dist",
-    "/types"
+    "/dist"
   ],
   "private": false,
   "repository": {
