@@ -4,6 +4,10 @@
   "description": "Common React hooks used by the varheight company in their projects",
   "main": "dist/index.js",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsc"
   },
