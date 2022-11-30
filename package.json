@@ -1,9 +1,18 @@
 {
   "name": "@varheight/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common React hooks used by the varheight company in their projects",
   "main": "dist/index.js",
+  "types": "types",
+  "files": [
+    "/dist",
+    "/types"
+  ],
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varheight-klg/hooks"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
