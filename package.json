@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Common React hooks used by the varheight company in their projects",
   "main": "dist/index.js",
+  "private": false,
   "scripts": {
     "build": "tsc"
   },
