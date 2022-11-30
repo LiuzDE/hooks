@@ -1,0 +1,26 @@
+{
+  "name": "@varheight/hooks",
+  "version": "1.0.0",
+  "description": "Common React hooks used by the varheight company in their projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "varheight"
+  ],
+  "author": "varheight",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "typescript": "^4.9.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
