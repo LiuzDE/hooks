@@ -1,6 +1,6 @@
 {
   "name": "@varheight/hooks",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Common React hooks used by the varheight company in their projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "publish": "tsc"
+    "build": "tsc",
+    "prepublish": "rm -rf dist",
+    "publish": "yarn build"
   },
   "keywords": [
     "react",
