@@ -1,6 +1,7 @@
 export * from "./useClipboard";
 export * from "./useCollapse";
 export * from "./useCookie";
+export * from "./useFetcher";
 export * from "./useLocalStorage";
 export * from "./useOnMount";
 export * from "./useOnResize";
