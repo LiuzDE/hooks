@@ -40,24 +40,22 @@ const buildReplacer = ({ urls, parts }: URLReplacerArgs) => {
   };
 };
 
-export const useUrlParser =
-  () =>
-  (text: string): UseURLParserResult[] => {
-    const matches = text.matchAll(urlRegex);
-    const matchesArray = Array.from(matches);
-    const urls = matchesArray.flatMap((m) => m.filter(Boolean));
-    const parts = text.split(urlRegex).filter(Boolean);
+export const useUrlParser = (text: string): UseURLParserResult[] => {
+  const matches = text.matchAll(urlRegex);
+  const matchesArray = Array.from(matches);
+  const urls = matchesArray.flatMap((m) => m.filter(Boolean));
+  const parts = text.split(urlRegex).filter(Boolean);
 
-    const urlReplacer = buildReplacer({ urls, parts });
+  const urlReplacer = buildReplacer({ urls, parts });
 
-    if (urls.length > 0) {
-      return urlReplacer();
-    }
+  if (urls.length > 0) {
+    return urlReplacer();
+  }
 
-    return [
-      {
-        type: "text",
-        value: text,
-      },
-    ];
-  };
+  return [
+    {
+      type: "text",
+      value: text,
+    },
+  ];
+};
