@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useOnMount } from "./util";
+import { useOnMount } from "./useOnMount";
 
 export const useCookie = <CookieValue extends string>(cookieName: string) => {
   const [value, setValue] = useState("");

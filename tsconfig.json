@@ -16,8 +16,7 @@
     "baseUrl": "./src",
     "outDir": "./dist",
     "incremental": true,
-    "declaration": true,
-    "declarationDir": "./types"
+    "declaration": true
   },
   "include": ["**/*.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
