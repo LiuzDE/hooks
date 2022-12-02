@@ -7,5 +7,6 @@ export * from "./useOnMount";
 export * from "./useOnResize";
 export * from "./useToggle";
 export * from "./useUrlParser";
+export * from "./useWindowBeforeUnload";
 export * from "./useWindowDimensions";
 export * from "./useWindowScroll";
